@@ -59,24 +59,5 @@ WHERE MONTH(transaction_date) IN (4, 5)
 GROUP BY MONTH(transaction_date)
 ORDER BY MONTH(transaction_date);
  
----
 
-## Conclusion
 
-This project demonstrates how raw transactional data from a cafe can be transformed into meaningful insights using a combination of SQL and Power BI.
-
-With SQL, I handled data cleaning, transformation, and KPI calculations, ensuring accuracy and consistency.
-
-With Power BI, I built an interactive dashboard that highlights store performance, product category trends, peak sales hours, and weekday vs. weekend revenue patterns.
-
-The analysis uncovered that:
-
-Weekdays contribute the majority of revenue (~71%), while weekends are comparatively slower.
-
-Coffee and Tea dominate sales, accounting for over two-thirds of total revenue.
-
-Peak selling hours occur in the mornings (8–10 AM) and afternoons (2–3 PM), valuable for staffing and operations.
-
-Store performance is evenly distributed, with Hell’s Kitchen and Lower Manhattan generating similar revenue.
-
-A month-over-month decline in February vs January signals seasonality or external influences.
